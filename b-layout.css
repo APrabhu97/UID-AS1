@@ -1,0 +1,39 @@
+.first-col {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-spacing {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#firstName {
+  color: red;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#lastColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.center-cols{
+  height: 100vh;
+}
+
+.showBlur{
+  filter: blur(5px);
+}
+
+.noShowBlur{
+  filter: blur(0px);
+}
